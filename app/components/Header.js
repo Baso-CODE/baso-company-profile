@@ -1,21 +1,20 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 // import Logo from "../app/public/logo.png";
 import Nav from "./Nav";
 import NavMobile from "./NavMobile";
 
 // import Logo
-import { logo } from "../data";
+import "aos/dist/aos.css";
 import Image from "next/image";
 import Link from "next/link";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import { logo } from "../data";
 //
 
 // import icons
-import { FaBars } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
+import { FaBars } from "react-icons/fa";
 
 const Header = () => {
   const [bg, setBg] = useState(false);

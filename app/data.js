@@ -1,7 +1,7 @@
 // import icons
-import { FaYoutube, FaInstagram, FaGithub, FaPenSquare } from "react-icons/fa";
 import { BsChatDotsFill } from "react-icons/bs";
-import { FiLayout, FiSettings, FiPenTool, FiTag } from "react-icons/fi";
+import { FaGithub, FaInstagram, FaPenSquare, FaYoutube } from "react-icons/fa";
+import { FiSettings } from "react-icons/fi";
 
 // import images
 import AboutImg from "../public/about.webp";
@@ -11,22 +11,21 @@ import Feature3Img from "../public/features/feature3.png";
 import Feature4Img from "../public/features/feature4.png";
 
 // avatars image
-import Avatar1Img from "../public/testimonials/avatar1.jpg";
-import Avatar2Img from "../public/testimonials/avatar2.jpg";
-import Avatar3Img from "../public/testimonials/avatar3.jpg";
-import LogoV2 from "../public/logo4.webp";
-import HeroImage from "../public/hero-img.webp";
-import Logo from "../public/logo4.webp";
 import Feature1BgImg from "../public/features/feature1_bg.png";
 import Feature2BgImg from "../public/features/feature2_bg.png";
 import Feature3BgImg from "../public/features/feature3_bg.png";
 import Feature4BgImg from "../public/features/feature4_bg.png";
+import HeroImage from "../public/hero-img.webp";
+import { default as Logo, default as LogoV2 } from "../public/logo4.webp";
+import Avatar1Img from "../public/testimonials/avatar1.jpg";
+import Avatar2Img from "../public/testimonials/avatar2.jpg";
+import Avatar3Img from "../public/testimonials/avatar3.jpg";
 
-import FreelancerBrandIcon from "../public/brands/freelancer.webp";
-import UpworkBrandIcon from "../public/brands/upwork.webp";
 import BehanceBrandIcon from "../public/brands/behance.webp";
 import DribbbleBrandIcon from "../public/brands/dribbble.webp";
 import FiverBrandIcon from "../public/brands/fiverr.webp";
+import FreelancerBrandIcon from "../public/brands/freelancer.webp";
+import UpworkBrandIcon from "../public/brands/upwork.webp";
 
 // import image VisiMisi\
 import Visi1 from "../public/teams/teams1.jpg";
