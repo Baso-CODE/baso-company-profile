@@ -18,15 +18,18 @@ import { FaBars } from "react-icons/fa";
 
 const Header = () => {
   const [bg, setBg] = useState(false);
+
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      return window.scrollY > 50 ? setBg(true) : setBg(false);
-    });
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", () => {
+        return window.scrollY > 50 ? setBg(true) : setBg(false);
+      });
+    }
   });
 
   const { image } = logo;
   const [navMobile, setNavMobile] = useState(false);
-  const isMobile = window.innerWidth <= 768;
+  const isMobile = window?.innerWidth <= 768;
   return (
     <header
       className={`${
