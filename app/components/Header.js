@@ -29,7 +29,8 @@ const Header = () => {
 
   const { image } = logo;
   const [navMobile, setNavMobile] = useState(false);
-  const isMobile = window?.innerWidth <= 768;
+  const isMobile =
+    typeof window !== "undefined" ? window.innerWidth <= 768 : false;
   return (
     <header
       className={`${
